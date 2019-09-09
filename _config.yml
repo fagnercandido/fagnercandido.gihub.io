@@ -1,4 +1,4 @@
-title: Texture Theme
+title: Developer Fagner Candido
 author: Fagner Candido
 email: fsouzacandido@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -24,8 +24,8 @@ texture:
 
   # generate social links in footer
   social_links:
-    github:  github.com/fagnercandido
-    linkedIn: linkedin.com/in/fagner-souza-candido/
+    github:  fagnercandido
+    linkedIn: fagner-souza-candido/
  
 
 # If you want to link only specific pages in your header, uncomment
