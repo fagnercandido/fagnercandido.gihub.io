@@ -104,3 +104,21 @@ Digital Repository, CartaSus, OuvidorSus, SisPNCD, SCPA, SIACS, SINAN, Exporter
 and SargSus. In the Java platform we used JavaEE, with the frameworks Struts, JDBC,
 JSF, JAX-WS, JPA / Hibernate, JasperReports, IText. JavaScript was also used with
 Ajax and JQuery.
+
+## Education
+### 2017 - 2019, Pontifícia Universidade Católica de Minas Gerais
+Postgraduate, Computer Software Engineering, Specialization in Distributed Software Architecture
+
+### 2006 - 2011, Universidade Católica de Brasília
+Bachelor of Applied Science (BASc), Computer Science
+
+## Licenses & Certifications
+### May/2018 - Oracle Certified Expert, Java EE 6 Enterprise JavaBeans Developer - Oracle
+
+### Oct/2011 - Oracle Certified Professional Java SE 6 Programmer - OCJP – Oracle
+
+### Dec/2012 - IBM Rational Unified Process v7.0 (839) - IBM
+
+### Mar/2010 - IBM Rational UML Object Oriented Analysis and Design - Part I (833) - IBM
+
+### Aug/2012 - IBM Rational UML Object Oriented Analysis and Design - Part II (834) - IBM
