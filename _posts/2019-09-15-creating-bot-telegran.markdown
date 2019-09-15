@@ -44,7 +44,7 @@ def send_start_message(message):
 
 @botRead.message_handler(func=lambda message: True)
 def get_handle_chats(message):
-    botRead.reply_to(message, message.chat.id)
+    botRead.reply_to(message, message.text)
 ```
 
 Acima, usando os Decorators do Python, informamos quais métodos vão ser escutados. No primeiro método, escutamos os /start e /help e retornamos a mensagem mostrado.
