@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Usando o Pip"
+description: Uma breve introdução do PIP
+date:   2019-09-18 15:50:36 +0530
+categories: Python Pip
+---
+O PIP é o gerenciador de pacotes do Python. Com ele é possível instalar, remover e pesquisar pacotes python.
+
+Para instalar um pacote basta realizar:
+```python
+pip install nomePacotePython
+```
+
+Para remover um pacote, segue a instrução:
+```python
+pip uninstall nomeDoPacote
+```
+
+Para pesquisar um pacote, basta fazer:
+```python
+pip search nomeDoPacote
+```
+
+Pronto, agora é só usar.
+
+
+Para qualquer dúvida, problema ou sugetão é só dizer.
