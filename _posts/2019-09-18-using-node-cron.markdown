@@ -27,3 +27,5 @@ cron.schedule('*/2 * * * *', () => {
 Now, just follow the pattern of cron.
 
 To any doubt, problem or suggestion, just say.
+
+Source: [Sources](https://github.com/fagnercandido/node-scheduling)
