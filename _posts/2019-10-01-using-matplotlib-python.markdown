@@ -2,7 +2,7 @@
 layout: post
 title:  "Using matplotlib in Python"
 description: Using matplotlib in Python
-date:   2019-09-30 14:00:36 +0530
+date:   2019-10-01 15:00:36 +0530
 categories: Python matplotlib
 ---
 The lib matplotlib is widely used in Python and Machine Learning. Ont the better parts is that use this lib is very easy.
