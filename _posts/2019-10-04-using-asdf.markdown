@@ -2,7 +2,7 @@
 layout: post
 title:  "Using asdf"
 description: Using asdf
-date:   2019-10-01 15:00:36 +0530
+date:   2019-10-04 17:00:36 +0530
 categories: version manager asdf
 ---
 Asdf is a extensible version manager via plugin. Asdf evaluate manager many CLI to multiple languages. For example Java, Node, Go, Haskell and much more.
