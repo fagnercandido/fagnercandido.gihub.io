@@ -5,16 +5,16 @@ description: Java and ModelMapper Converter
 date:   2019-12-05 12:00:36 +0530
 categories: java model mapper converter null
 ---
-Recently, i had needed create mappers in Java using ModelMapper.
+Recently, I needed to create mappers in Java using ModelMapper.
 
-But, i too had needed create converters in these mappers. So, when i was use destination, i always received a NPE.
+But, I needed to create converters in those mappers too. So, when I needed a destination, I always received a NPE.
 
-To resolve this, follow the solution:
+To resolve that, follow the solution:
 ```java
     context.getMappingEngine().createDestination(context);
 ```
-In this solution i create manually a destination. Now, i can make get/set in fields.
+In this solution I created manually a destination. Now, I can make get/set in fields.
 
 and that's all folks!
 
-To any doubt, problem or suggestion, just say.
+If you have any doubts, problems or suggestions, just leave a message.

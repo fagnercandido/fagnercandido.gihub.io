@@ -7,12 +7,12 @@ categories: Node JS JavaScript Redis Docker
 ---
 To use Redis with NodeJS is more simple. In this example, we will use Docker to obtain an instance of Redis. Follow the example:
 
-First of all, pull docker image redis:
+First of all, pull the docker image for redis:
 ```sh
 docker pull redis
 ```
 
-After this, start image given a name:
+After that, start image given a name:
 ```sh
 docker start redis7
 ```
@@ -22,29 +22,29 @@ Now, we will create a new node project:
 npm init -y
 ```
 
-The next step, add the redis dependencies:
+The next step is to add the redis dependencies:
 ```sh
 npm install redis
 ```
-Now, time's to code. Create a new file, import redis and create a client redis object:
+Now, it is time to code. Create a new file, import redis and create a client redis object:
 ```javascript
 const redis = require('redis')
 
 const clientRedis = redis.createClient(process.env.REDIS_URL)
 
 clientRedis.on('connect', () => {
-    console.log(`Server connect with redis`)
+    console.log(`Server connected with redis`)
 });
 
 clientRedis.on('error', err => {
     console.log(`Server redis with error: ${err}`)
 });
 ```
-In the above code, we create a redis client and start the server. One thing important, is the url of redis. In my case, i'm using the environment variable. In enviroment linux, for instance:
+In the code above we created a redis client and started the server. One important thing is the url of redis. In my case, I'm using an environment variable. To setup the variable in linux, for instance, we can run the following:
 ```sh
  export REDIS_URL="redis://127.0.0.1:6379"
 ``` 
-The port 6379 is default, and in this case, the redis be in instance docker.
+The default port is 6379, and in this case, the redis is in a docker instance.
 
 Finally, just get and set content in redis:
 ```javascript
@@ -58,4 +58,4 @@ clientRedis.setex(url, 3600, JSON.stringify(someData))//3600 is when data will e
 ```
 and that's all folks!
 
-To any doubt, problem or suggestion, just say.
+If you have any doubts, problems or suggestions, just leave a message.

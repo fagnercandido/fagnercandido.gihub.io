@@ -5,8 +5,8 @@ description: Using matplotlib in Python
 date:   2019-10-01 15:00:36 +0530
 categories: Python matplotlib
 ---
-The lib matplotlib is widely used in Python and Machine Learning. Ont the better parts is that use this lib is very easy.
-First of all, we will installing the dependencies needed:
+The lib matplotlib is widely used in Python and Machine Learning. The good news is that using this lib is very easy.
+First of all, we will be installing the dependencies needed:
 
 ```sh
 python3.7 -m pip install -U matplotlib
@@ -24,11 +24,11 @@ plt.plot([1,2,3,4], [1,5,9,7])
 plt.show()
 ```
 
-In the first line, was imported the packages needed.
-Then, we will create data and plot the data.
+In the first line, the packages needed were imported.
+Then, we created mock data and plotted it.
 
 and that's all folks!
 
-To any doubt, problem or suggestion, just say.
+If you have any doubts, problems or suggestions, just leave a message.
 
 Sources: [Sources](https://github.com/fagnercandido/tests-matplotlib)

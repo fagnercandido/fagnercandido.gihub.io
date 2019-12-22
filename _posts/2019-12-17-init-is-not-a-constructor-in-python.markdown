@@ -5,9 +5,9 @@ description: __init__ method is not a constructor
 date:   2019-12-17 12:00:36 +0530
 categories: python init
 ---
-Recently, i learned that the init method in Python is not a constructor.
+Recently, I learned that the ``init`` method in Python is not a constructor.
 
-Yes, seem simple, but, this method it's to initialize fields in your class. The construtor method is called new.
+Yes, seems simple, but, this method is used to initialize fields in your class. The constructor method is called ``new``.
 
 Follow the example to init method:
 ```python
@@ -18,8 +18,8 @@ Follow the example to new method:
     def __new__()
 ```
 
-An important diffence is the new method return an instance of class, and the init method, not has return and only initialize values.
+An important difference is that the ``new`` method return an instance of class, and the ``init`` method, does not have a return and only initialize values.
 
 and that's all folks!
 
-To any doubt, problem or suggestion, just say.
+If you have any doubts, problems or suggestions, just leave a message.

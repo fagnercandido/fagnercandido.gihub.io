@@ -5,7 +5,7 @@ description: Problems with git clone and Windows
 date:   2019-10-09 17:00:36 +0530
 categories: git clone windows
 ---
-Git it's a powerfull tool to version manager control. But, his have many details. Recently, i've problems with git clone:
+Git is a powerful version manager control. However, it does have many details. Recently, I've had problems with git clone:
 
 #####Git fatal: protocol 'https' is not supported
 
@@ -15,9 +15,9 @@ To resolve this, just:
 git clone "https://myRepo/a.git"
 ```
 
-Yes, only between quotation marks.
+Yes, just write the URL between quotation marks.
 
 
 and that's all folks!
 
-To any doubt, problem or suggestion, just say.
+If you have any doubts, problems or suggestions, just leave a message.
