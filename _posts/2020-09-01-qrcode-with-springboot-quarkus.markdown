@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "QRCode with SpringBoot and Quarkus"
-description: java record new features
+description: java qrcode springboot quarkus
 date:   2020-09-01 16:00:00 +0530
-categories: java 14 record
+categories: java QRCode Quarkus springboot
 ---
 
 There are many types of BarCodes. In the below examples i was created QRCodes with zxing one library of Google.
