@@ -1,47 +1,19 @@
 ---
 layout: post
-title:  "Decorators in Python"
-description: Using Decorators in Python
-date:   2020-11-07 21:00:00 +0530
-categories: python decorators
+title:  "Setting new versions in Maven Pom"
+description: Setting the new versions in pom.xml
+date:   2020-11-09 14:15:00 +0530
+categories: maven pom
 ---
 
-Decorators in Python is basically metaprogramming. To understand decorators in Python, some things will be clear:
-- function are high-order objects
-- you can pass funcions as arguments
-- you can declare inner functions
-
-Now, it's very simple create one decorator:
+Recently, we need changes all version in pom file. But, there are a little problem: the are more than 70 modules in project.
+Ok, you can do replace for all files using Notepad++ or another tool. But, the maven provides one manner more easy:
 
 ```
-import time
-
-
-def time_execution(function):
-    def wrapper():
-        start_time = time.time()
-        function()
-        end_time = time.time()
-        print("[{function}] Time Execution: {total_time}".format(
-            function=function.__name__,
-            total_time=str(end_time - start_time))
-        )
-
-    return wrapper
-
-@time_execution
-def main():
-    for n in range(0, 10000000):
-        pass
-
-main()
-
+    mvn versions:set -DnewVersion=myNewVersion
+    mvn versions:commit
 ```
-
-First thing, we import the module time.
-Second, we use the sugar sintax "@". This indicate to the Python that is a decorator.
-The core is the function "time_execution". Her receive on function and involves the real function, called of "wrapper".
-So, you first decorator works fine.
+Now, all poms are updated.
 
 and that's all folks!
 
