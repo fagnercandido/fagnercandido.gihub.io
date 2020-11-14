@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Decorators in Python"
-description: Using Decorators in Python
+title:  "Setting new versions in Maven Pom"
+description: Setting the new versions in pom.xml
 date:   2020-11-07 21:00:00 +0530
 categories: python decorators
 ---
